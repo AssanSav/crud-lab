@@ -10,7 +10,7 @@ class ReviewsContainer extends Component {
     return (
       <div>
         <ReviewInput addReview={addReview} restaurantId={restaurant.id} />
-        <Reviews reviews={reviews} restaurantId={restaurant.id} />
+        <Reviews reviews={reviews} restaurantId={restaurant.id} removeReview={removeReview}/>
       </div>
     )
   }

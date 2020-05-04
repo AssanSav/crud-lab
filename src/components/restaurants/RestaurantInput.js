@@ -18,7 +18,6 @@ class RestaurantInput extends Component {
   }
 
   handleOnSubmit(e) {
-    // debugger
     e.preventDefault()
     if (this.state.text !== "") {
       this.props.addRestaurant(this.state.text)
